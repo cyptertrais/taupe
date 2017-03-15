@@ -3,7 +3,8 @@ package terrain;
 import parcelle.Taupe;
 
 public class Vue {
-	Terrain terrain;
+	public Terrain terrain;
+	
 	public Vue(Terrain t){
 		this.terrain=t;	
 	}
